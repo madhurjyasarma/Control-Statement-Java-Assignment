@@ -1,0 +1,17 @@
+Paul's Laptop :
+
+
+1. Paul - String name;
+2. idol - String brandName;
+3. processor speed - 2.66 GHz - float pSpeed;
+4. RAM - 8 GB - int ram;
+5. hard disk - 500 GB - long hardDisk;
+6. monitor - 15 inch - int monitorSize;
+7. price - $1760.55 - long monitorPrice
+8. (char servicePlan = 'C';) (plan - plan C - bool planC = true; (among planA, planB, planD which are false))
+9. bool onSiteServicing = true;
+10. bool entendedWarenty = false;
+
+
+
+Group Study :::  Structs and Enums -- 02-12-2022 at 4pm
