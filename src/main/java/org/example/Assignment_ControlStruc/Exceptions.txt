@@ -1,0 +1,45 @@
+----------------------------------------------------
+      Exception Handling
+----------------------------------------------------
+
+
+There are 3 types of Exception :::
+
+* Syntax Errors (Compile time): Due to lack of proper syntax, this kind of
+exception occurs.
+
+* Logical Errors : This will occur whenever user is getting
+different output from what he/she expecting. so, we need to change the logic,
+then we can fic it.
+
+* Run-time errors : During execution of the program will be terminated in the middle itself.
+
+
+-----------------------------------------------------------------
+     Exception handling is a mechanism to handle Runtime errors.
+------------------------------------------------------------------
+
+The THREE things important things, we need to remember while developing program.
+
+        1. Comments, Naming convention/Indentation/Coding std
+        2. Excecptioin Handling
+        3. Validation on Data
+
+* All exceptions in java are classes which are inherited from a base class called 'Exception'.
+
+        1. try : The code which you are writing indisde try will be checked by the compiler
+            and if detects any issue it will redirect to catch.
+
+        2. catch : It is going to handle the exception.
+
+        3. finally : It's an optional block. but the code inside finally will be executed
+                    irrespective of the Exception.
+        4. throw : To raise Exception explicitly then we use it.
+                    generally we use it in user-defined Exception.
+        5. throws : To handle Exception for a specific method to handle it implicitly.
+
+                e.g. - public static void main (String[] args) {
+                    throws IOException{}
+                }
+
+
