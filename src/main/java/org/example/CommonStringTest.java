@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Assignment_ControlStruc.Day3_Java_CommonString;
-
 import java.util.Scanner;
 
 public class CommonStringTest {
