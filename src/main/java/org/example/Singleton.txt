@@ -1,0 +1,19 @@
+In singleton - one object is created, and it is maintained throughout the execution of the program.
+Singleton design pattern is used in database connectivity, caching, socket programming.
+
+
+-- Multi-threading
+In order to create a thread safe application, we need to add synchronize keyword.
+* main is a thread.
+- If we create 2 objects, 3 thread is being maintained. ObjOne, Objtwo and main.
+
+
+--- For each example -
+
+// list consists of different objects like String, float, int, boolean etc.
+for (Object item : list) {
+    sout(item);
+}
+
+
+Object listArray[] = listItem.toArray();
