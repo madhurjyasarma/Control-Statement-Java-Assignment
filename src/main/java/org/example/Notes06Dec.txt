@@ -5,7 +5,7 @@ Singleton design pattern is used in database connectivity, caching, socket progr
 -- Multi-threading
 In order to create a thread safe application, we need to add synchronize keyword.
 * main is a thread.
-- If we create 2 objects, 3 thread is being maintained. ObjOne, Objtwo and main.
+- If we create 2 objects, 3 thread is being maintained. ObjOne, ObjTwo and main.
 
 
 --- For each example -
@@ -17,3 +17,10 @@ for (Object item : list) {
 
 
 Object listArray[] = listItem.toArray();
+
+
+-----------------------------------------------------------------------------
+
+Iterator: List Iterator
+It can traverse only in forward direction whereas List Iterator traverse both in forward and backward direction.
+ListIterator can help to replace an element whereas Iterator can't.
